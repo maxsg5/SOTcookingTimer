@@ -1,21 +1,33 @@
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+@font-face {
+    font-family: sot;
+    src: url(./fonts/Windlass.ttf);
+  }
 span{
     padding-left: 20px;
 }
 .timer{
-    margin-top: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: x-large;
 }
 table{
-    padding-top: 20%;
+    /* padding-top: 20%; */
     margin-left: auto;
     margin-right: auto;
 }
 h1 {
-    font-size:24px;
+    font-family:'sot';
+    font-size:34px;
     font-weight:normal;
     margin:0px;
     overflow:visible;
