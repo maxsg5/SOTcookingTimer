@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-    <title>Document</title>
+    <title>SOT Cooking Timers</title>
 </head>
+
 <body id="body">
     <div>
         <h1>Sea Of Thieves Cooking Timers</h1>
         <div class="timer">
             <div id="countdown"></div>
         </div>
-        <table >
+        <table>
             <tbody>
                 <tr>
-                    <td><span>Fish</span></td>
+                    <td><span>&nbsp&nbsp&nbsp&nbspFish</span></td>
                     <td><span>Trophy Fish</span></td>
-                    <td><span>Meat</span></td>
-                    <td><span>Megladon</span></td>
-                    <td><span>Kraken</span></td>
+                <tr>
+                    <td><button><img src="./img/1.png" alt="" style="width: 100px; height: 100px;"
+                                onclick="startFishTimer()"></button> </td>
+                    <td><button><img src="./img/2.png" alt="" style="width: 100px; height: 100px;"
+                                onclick="startTrophyFishTimer()"></button> </td>
+                </tr>
+                <td><span>&nbsp&nbsp&nbsp&nbsp Meat</span></td>
+                <td><span>Megladon</span></td>
+                <tr>
+                    <td><button><img src="./img/3.png" alt="" style="width: 100px; height: 100px;"
+                                onclick="startMeatTimer()"></button> </td>
+                    <td><button><img src="./img/4.png" alt="" style="width: 100px; height: 100px;"
+                                onclick="startMegladonMeatTimer()"></button> </td>
+
+                </tr>
+                <td><span>&nbsp&nbsp&nbsp&nbspKraken</span></td>
 
                 </tr>
                 <tr>
-                    <td><button><img src="./img/1.png" alt="" style="width: 100px; height: 100px;" onclick="startFishTimer()"></button> </td>
-                    <td><button><img src="./img/2.png" alt="" style="width: 100px; height: 100px;" onclick="startTrophyFishTimer()"></button> </td>
-                    <td><button><img src="./img/3.png" alt="" style="width: 100px; height: 100px;" onclick="startMeatTimer()"></button> </td>
-                    <td><button><img src="./img/4.png" alt="" style="width: 100px; height: 100px;" onclick="startMegladonMeatTimer()"></button> </td>
-                    <td><button><img src="./img/5.png" alt="" style="width: 100px; height: 100px;" onclick="startKrakenMeatTimer()"></button> </td>
-                </tr>   
+                    <td><button><img src="./img/5.png" alt="" style="width: 100px; height: 100px;"
+                                onclick="startKrakenMeatTimer()"></button> </td>
+                <tr>
+
+                </tr>
+
+
+                </tr>
             </tbody>
         </table>
     </div>
 </body>
+
 </html>
