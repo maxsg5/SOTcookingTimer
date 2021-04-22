@@ -8,11 +8,13 @@ function startFishTimer() {
         document.getElementById("body").style.backgroundColor = "white";
 
 
-        var timeleft = 40;
+        var timeleft = 5;
         var downloadTimer = setInterval(function(){
           if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "Finished!";
+            var audio = new Audio('./sound/sizzle.mp3');
+            audio.play();
             //document.getElementById("body").style.animationPlayState = "running";
             activeTimer = false;
           } else {
@@ -34,6 +36,8 @@ function startTrophyFishTimer() {
           if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "Finished!";
+            var audio = new Audio('./sound/sizzle.mp3');
+            audio.play();
             activeTimer = false;
           } else {
             document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
@@ -53,6 +57,8 @@ function startMeatTimer() {
           if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "Finished!";
+            var audio = new Audio('./sound/sizzle.mp3');
+            audio.play();
             activeTimer = false;
           } else {
             document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
@@ -73,6 +79,8 @@ function startMegladonMeatTimer() {
           if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "Finished!";
+            var audio = new Audio('./sound/sizzle.mp3');
+            audio.play();
             activeTimer = false;
           } else {
             document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
@@ -92,7 +100,8 @@ function startKrakenMeatTimer() {
           if(timeleft <= 0){
             clearInterval(downloadTimer);
             document.getElementById("countdown").innerHTML = "Finished!";
-           // document.getElementById("body").style.animationPlayState = "running";
+            var audio = new Audio('./sound/sizzle.mp3');
+            audio.play();
             activeTimer = false;
           } else {
             document.getElementById("countdown").innerHTML = timeleft + " seconds remaining";
