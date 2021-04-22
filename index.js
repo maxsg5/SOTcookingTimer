@@ -8,7 +8,7 @@ function startFishTimer() {
         document.getElementById("body").style.backgroundColor = "white";
 
 
-        var timeleft = 5;
+        var timeleft = 40;
         var downloadTimer = setInterval(function(){
           if(timeleft <= 0){
             clearInterval(downloadTimer);
