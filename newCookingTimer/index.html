@@ -15,6 +15,7 @@
         <h1>Sea Of Thieves Cooking Timers</h1>
         <div class="timer">
             <div id="countdown"></div>
+            <button onclick="CancelTimer()">cancel</button>
         </div>
         <table>
             <tbody>
@@ -23,17 +24,17 @@
                     <td><span>Trophy Fish</span></td>
                 <tr>
                     <td><button><img src="./img/1.png" alt="" style="width: 100px; height: 100px;"
-                                onclick="startFishTimer()"></button> </td>
+                                onclick="startTimer(40)"></button> </td>
                     <td><button><img src="./img/2.png" alt="" style="width: 100px; height: 100px;"
-                                onclick="startTrophyFishTimer()"></button> </td>
+                                onclick="startTimer(90)"></button> </td>
                 </tr>
                 <td><span>&nbsp&nbsp&nbsp&nbsp Meat</span></td>
                 <td><span>Megladon</span></td>
                 <tr>
                     <td><button><img src="./img/3.png" alt="" style="width: 100px; height: 100px;"
-                                onclick="startMeatTimer()"></button> </td>
+                                onclick="startTimer(60)"></button> </td>
                     <td><button><img src="./img/4.png" alt="" style="width: 100px; height: 100px;"
-                                onclick="startMegladonMeatTimer()"></button> </td>
+                                onclick="startTimer(120)"></button> </td>
 
                 </tr>
                 <td><span>&nbsp&nbsp&nbsp&nbspKraken</span></td>
@@ -41,7 +42,7 @@
                 </tr>
                 <tr>
                     <td><button><img src="./img/5.png" alt="" style="width: 100px; height: 100px;"
-                                onclick="startKrakenMeatTimer()"></button> </td>
+                                onclick="startTimer(120)"></button> </td>
                 <tr>
 
                 </tr>
