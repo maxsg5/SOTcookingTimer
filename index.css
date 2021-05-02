@@ -48,3 +48,8 @@ body{
     animation-iteration-count: infinite;
     animation-play-state: paused;
 }
+footer{
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+}
