@@ -45,7 +45,7 @@ h1 {
     100% {background-color:red; left:0px; top:0px;}
 }
 body{
-    background-color: rgb(105, 103, 103);
+    color: rgb(105, 103, 103);
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
