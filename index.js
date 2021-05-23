@@ -6,8 +6,7 @@ function startTimer(foodTypeTime) {
   if(!activeTimer){
       cancelTimer = false;
       activeTimer = true;
-      document.getElementById("body").style.animationPlayState = "paused";
-      document.getElementById("body").style.backgroundColor = "white";
+      
 
 
       var downloadTimer = setInterval(function(){
