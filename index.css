@@ -46,10 +46,7 @@ h1 {
 }
 body{
     color: rgb(105, 103, 103);
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
+    
 }
 footer{
     text-align: center;
